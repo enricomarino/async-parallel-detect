@@ -1,3 +1,16 @@
+
+/* !
+ * parallel_detect
+ * async series each
+ *
+ * @copyright 2013 Enrico Marino
+ * @license MIT
+ */
+
+/*
+ * Expose `parallel_detect`
+ */
+
 module.exports = parallel_detect;
 
 /*
