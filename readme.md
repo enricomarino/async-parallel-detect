@@ -1,10 +1,10 @@
-# parallel-detect
+# async-parallel-detect
 
 async parallel detect
 
 ## Installation
 
-    $ component install component-async/parallel-detect
+    $ component install enricomarino/async-parallel-detect
 
 ## License
 
