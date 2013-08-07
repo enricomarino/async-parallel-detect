@@ -1,6 +1,5 @@
-
 /* !
- * parallel_detect
+ * async-parallel_detect
  * async series each
  *
  * @copyright 2013 Enrico Marino
@@ -8,13 +7,6 @@
  */
 
 /*
- * Expose `parallel_detect`
- */
-
-module.exports = parallel_detect;
-
-/*
- * parallel_detect
  * Detect items of 'array' that pass 'iterator' in parallel
  * and call 'callback' when done
  *
@@ -24,7 +16,7 @@ module.exports = parallel_detect;
  * @api public
  */
 
-function parallel_detect(array, iterator, callback) {
+module.exports = function (array, iterator, callback) {
   var completed = 0;
   var len = array.length; 
   var i;
@@ -50,4 +42,4 @@ function parallel_detect(array, iterator, callback) {
   for (i = 0; i < len; i += 1) {
     iterator(array[i], complete);
   }
-}
+};
