@@ -1,0 +1,9 @@
+{
+  "name": "async-parallel-detect",
+  "repo": "enricomarino/async-parallel-detect",
+  "version": "0.0.0",
+  "description": "async parallel each",
+  "keywords": ["async", "parallel", "detect"],
+  "scripts": ["index.js"],
+  "license": "MIT"
+}
